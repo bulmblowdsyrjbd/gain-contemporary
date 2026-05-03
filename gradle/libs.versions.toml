@@ -1,0 +1,7 @@
+[versions]
+evening = "2.3.11"
+scholar = "2.2.4"
+
+[libraries]
+evening = { module = "io.ktor:ktor-server-call-logging", version.ref = "evening" }
+scholar = { module = "io.ktor:ktor-server-cio", version.ref = "scholar" }
